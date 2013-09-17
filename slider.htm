@@ -1,7 +1,7 @@
 <!Doctype html>
 <html lan="en">
     <head>
-    	<meta charset="utf-8">
+    	
     	<link rel="stylesheet" type="text/css" href="./style.css">
         <script type="text/javascript" src="./jquery.js"></script>
         
@@ -10,7 +10,7 @@
         $(function() {
             var speed='400';//speed of the slideshow
             var duration='3000';//duration of the autoplaying slideshow
-            var autostart=false;//auto start of the slide show
+            var autostart=true;//auto start of the slide show
             var sds = document.getElementById("dum");
         if(sds == null){
                alert("You are using a free package.\n You are not allowed to remove the tag.\n");
@@ -95,7 +95,7 @@
      <div id="container">    
 
      <div id="gallery" class="gallery">
-     <p>Select any one of the effects and click the Start button:&nbsp;<select id="switch-effect">
+     <p><select id="switch-effect">
       <option value="slide-hori">Slide horizontal</option>
       <option value="slide-vert">Slide vertical</option>
       <option value="resize">Shrink/grow</option>
@@ -111,7 +111,7 @@
           <ul class="ad-thumb-list">
             <li>
               <a href="./images/1.jpg">
-                <img src="./images/thumbs/t1.jpg" title="title" alt="qqqqqqqq" class="image0">
+                <img src="./images/thumbs/t1.jpg" title="" alt="" class="image0">
               </a>
             </li>
               <li>
@@ -149,37 +149,7 @@
                 <img src="./images/thumbs/t8.jpg" title="" alt="" class="image12">
               </a>
             </li>
-            <li>
-              <a href="./images/9.jpg">
-                <img src="./images/thumbs/t9.jpg" title="" alt="" class="image13">
-              </a>
-            </li>
-           <li>
-              <a href="./images/10.jpg">
-                <img src="./images/thumbs/t10.jpg" title="" alt="" class="image1">
-              </a>
-            </li>
-            <li>
-              <a href="./images/11.jpg">
-                <img src="./images/thumbs/t11.jpg" title="" alt="" class="image2">
-              </a>
-            </li>
-            <li>
-              <a href="./images/12.jpg">
-                <img src="./images/thumbs/t12.jpg" title="" alt="" class="image3">
-              </a>
-            </li>
-            <li>
-              <a href="./images/13.jpg">
-                <img src="./images/thumbs/t13.jpg" title="" alt=""class="image4">
-              </a>
-            </li>
-            <li>
-              <a href="./images/14.jpg">
-                <img src="./images/thumbs/t14.jpg" title="" alt="" class="image5">
-              </a>
-            </li>
-            
+                        
           </ul>
         </div>
       </div>
